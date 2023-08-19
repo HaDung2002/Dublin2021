@@ -5,8 +5,7 @@ Traffic flow data are collected from the website Transport Infrastructure Irelan
 
 ## Data structure
 The structure of dataset is as follows
-
-<pre><code>TikiAPI-WebScraping/
+<pre><code>
 Dublin2021/
 |
 ├── raw/
