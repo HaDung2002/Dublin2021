@@ -1,7 +1,7 @@
 # Dublin2021
 A Dataset for Traffic Prediction
 
-Traffic flow data are collected from the website Transport Infrastructure Ireland Traffic Data (https://trafficdata.tii.ie/). Dataset contains traffic volume extracted from 33 traffic counters located in the center of Dublin, Ireland. The time period used is from 1/1/2021 to 31/12/2021 and the time interval is 5 minutes. This dataset can be applied in trafffic prediction problem, especially using GNN-based approaches.
+Traffic flow data are collected from the website Transport Infrastructure Ireland Traffic Data (https://trafficdata.tii.ie/). Dataset contains traffic volume extracted from 33 traffic counters located in the center of Dublin, Ireland. The time period used is from 1/1/2021 to 31/12/2021 and the time interval is 5 minutes. This dataset can be applied to traffic prediction problems, especially using GNN-based approaches.
 
 ## Data structure
 Dublin2021 contains multiple data files related to spatial and temporal features of traffic flow
@@ -26,7 +26,7 @@ Dublin2021 contains multiple data files related to spatial and temporal features
     <code>adj_matrix.csv</code> is the weighted adjacency matrix of the shape [33, 33]. The value at i-th row and j-th column is the road distance from counter i to counter j.
   </li>
   <li>
-    <code>counter_information.csv</code> contains the mapping index, longtitude and latitude of each traffic counter.
+    <code>counter_information.csv</code> contains the mapping index, longitude and latitude of each traffic counter.
   </li>
   <li>
     <code>distances.csv</code> contains information about road distance from one traffic counter to another.
